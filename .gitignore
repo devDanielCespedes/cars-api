@@ -1,0 +1,53 @@
+# Node.js specific files and directories
+node_modules/
+yarn-error.log
+
+# Yarn installed dependencies
+yarn.lock
+
+# Build files
+build/
+dist/
+out/
+*.log
+
+# Temporary files
+*.tmp
+*.tmp.*
+*.swp
+
+# Other specific files and directories
+.DS_Store
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor/IDE
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Logs
+logs/
+*.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Cache
+.pnp
+.pnp.js
+*.pnp.*
+
+# Tests
+coverage/
+
+# Generated directories
+node_modules/
+dist/
+out/
+build/
